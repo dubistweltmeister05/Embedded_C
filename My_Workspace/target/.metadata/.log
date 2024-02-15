@@ -1,0 +1,89 @@
+!SESSION 2024-01-23 16:36:26.912 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\wardawg\Desktop\TEAM AUTOMATONS\Embedded-C\My_Workspace\target
+
+!ENTRY org.eclipse.ui 2 0 2024-01-23 16:36:41.069
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-01-23 16:36:41.069
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2024-01-23 16:36:42.599
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2024-01-23 16:36:42.622
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-23 16:36:45.890
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-23 16:36:45.893
+!MESSAGE Log4j2 initialized with config file C:\Users\wardawg\Desktop\TEAM AUTOMATONS\Embedded-C\My_Workspace\target\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-23 16:36:47.709
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wardawg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-23 16:36:50.237
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-01-23 16:44:55.929 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\wardawg\Desktop\TEAM AUTOMATONS\Embedded-C\My_Workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-23 16:45:04.535
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-23 16:45:04.536
+!MESSAGE Log4j2 initialized with config file C:\Users\wardawg\Desktop\TEAM AUTOMATONS\Embedded-C\My_Workspace\target\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-23 16:45:07.377
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wardawg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-23 16:45:09.778
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-23 16:47:53.760
+!MESSAGE Indexed '000TestProject' (3 sources, 53 headers) in 1.24 sec: 1,950 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2024-01-24 10:27:22.983 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-24 10:27:36.698
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-24 10:27:36.701
+!MESSAGE Log4j2 initialized with config file C:\Users\wardawg\Desktop\TEAM AUTOMATONS\Embedded-C\My_Workspace\target\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-24 10:27:42.222
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wardawg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-24 10:27:45.014
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-24 10:54:25.633
+!MESSAGE Indexed '001_Hello_World' (21 sources, 81 headers) in 4.81 sec: 4,422 declarations; 18,423 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0088%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-24 10:55:22.863
+!MESSAGE Indexed '001_Hello_World' (3 sources, 53 headers) in 0.842 sec: 1,950 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-24 11:03:14.924
+!MESSAGE Indexed '001_Hello_World' (3 sources, 55 headers) in 0.328 sec: 2,094 declarations; 2,968 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.039%)
