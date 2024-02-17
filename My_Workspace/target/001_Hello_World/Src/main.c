@@ -16,18 +16,18 @@
  ******************************************************************************
  */
 
-#include<stdio.h>
+#include <stdio.h>
 #include <stdint.h>
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
-  #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+#warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
 #endif
 
 int main(void)
 {
 	extern void initialise_monitor_handles(void);
 	initialise_monitor_handles();
-    /* Loop forever */
+	/* Loop forever */
 	printf("the size of the char data type is %u\n", sizeof(char));
 	printf("the size of the float data type is %u\n", sizeof(float));
 	printf("the size of the short data type is %u\n", sizeof(short));
@@ -36,5 +36,6 @@ int main(void)
 	printf("the size of the long long data type is %u\n", sizeof(long long));
 	printf("the size of the double data type is %u\n", sizeof(double));
 
-	for(;;);
+	for (;;)
+		;
 }
