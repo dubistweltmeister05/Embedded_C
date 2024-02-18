@@ -151,7 +151,7 @@ Disassembly of section .text:
 
 08000280 <main>:
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
-  #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+#warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
 #endif
 
 int main(void)
@@ -161,7 +161,7 @@ int main(void)
 	extern void initialise_monitor_handles(void);
 	initialise_monitor_handles();
  8000284:	f001 f9c4 	bl	8001610 <initialise_monitor_handles>
-    /* Loop forever */
+	/* Loop forever */
 	printf("the size of the char data type is %u\n", sizeof(char));
  8000288:	2101      	movs	r1, #1
  800028a:	480e      	ldr	r0, [pc, #56]	; (80002c4 <main+0x44>)
@@ -191,7 +191,7 @@ int main(void)
  80002ba:	4808      	ldr	r0, [pc, #32]	; (80002dc <main+0x5c>)
  80002bc:	f000 f8fc 	bl	80004b8 <iprintf>
 
-	for(;;);
+	for (;;)
  80002c0:	e7fe      	b.n	80002c0 <main+0x40>
  80002c2:	bf00      	nop
  80002c4:	0800172c 	.word	0x0800172c

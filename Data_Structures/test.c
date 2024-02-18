@@ -1,12 +1,9 @@
-#include <stdio.h>
 
-void changenum(int *a)
+#include <stdio.h>
+#define begin(m, a, i, n) m##a##i##n
+#define start begin(m, a, i, n)
+
+void start()
 {
-    *a = 30;
-}
-int main()
-{
-    int x = 0;
-    changenum(&x);
-    printf("%d", x);
+    printf("Geeksforgeeks");
 }
